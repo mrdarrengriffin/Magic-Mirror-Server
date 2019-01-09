@@ -1,0 +1,33 @@
+{
+    "http_server":{
+        "port":8002,
+        "public_url": "http://my.domain.com"
+    },
+    "google_api":{
+        "simple":"API_KEY",
+        "oauth2":{
+            "client_id":"CLIENT_ID",
+            "client_secret":"CLIENT_SECRET",
+            "refresh_token":"REFRESH_TOKEN",
+            "scopes":["SCOPE.PERMISSIONS"],
+            "request_interval": 15000
+        },
+        "service":{}
+    },
+    "google_calendar":{
+        "calendar_id":"CALENDAR@GOOGLEAPI.COM"
+    },
+    "spotify":{
+        "oauth2":{
+            "client_id":"CLIENT_ID",
+            "client_secret":"CLIENT_SECRET",
+            "refresh_token":"REFRESH_TOKEN",
+            "scopes":["SCOPE.PERMISSIONS"],
+            "request_interval": 5000
+        }
+    },
+    "discord_api":{
+        "client_id":"CLIENT_ID",
+        "client_secret":"CLIENT_SECRET"
+    }
+}
